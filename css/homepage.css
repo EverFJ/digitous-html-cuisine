@@ -5,16 +5,18 @@
     font-style: italic;
 }
 
-.header-title {
+/* .header-title {
     background-image: url("../img/header.jpg");
     background-size: cover;
-    opacity: 0.9;
-    background-color: black;
-}
+    background-position: center;
+    opacity: 1;
+    filter: grayscale(20%);
+} */
 
 .header-title h1, .header-title h2 {
     font-family: 'Oswald', Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-style: italic;
     color: black;
+    text-align: center;
 }
