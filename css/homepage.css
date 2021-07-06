@@ -13,7 +13,7 @@
     filter: grayscale(20%);
 } */
 
-.header-title h1, .header-title h2 {
+header h1, header h3 {
     font-family: 'Oswald', Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-style: italic;
