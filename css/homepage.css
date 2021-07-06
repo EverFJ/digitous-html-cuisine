@@ -7,8 +7,9 @@
 
 /* .header-title {
     background-image: url("../img/header.jpg");
+    !!! linear-gradient rule !!!
     background-size: cover;
-    background-position: center;
+    background-position: ;
     opacity: 1;
     filter: grayscale(20%);
 } */
