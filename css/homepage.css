@@ -5,14 +5,12 @@
     font-style: italic;
 }
 
-/* .header-title {
-    background-image: url("../img/header.jpg");
-    !!! linear-gradient rule !!!
+header {
+    height: 60vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../img/header.jpg");
     background-size: cover;
-    background-position: ;
-    opacity: 1;
-    filter: grayscale(20%);
-} */
+    background-position: center;
+}
 
 .italic-title {
     font-family: 'Oswald', Arial, Helvetica, sans-serif;
