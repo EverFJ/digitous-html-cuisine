@@ -13,10 +13,13 @@
     filter: grayscale(20%);
 } */
 
-header h1, header h3 {
+.italic-title {
     font-family: 'Oswald', Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-style: italic;
-    color: black;
-    text-align: center;
+}
+
+.normal-title {
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    font-weight: bolder;
 }
