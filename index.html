@@ -14,25 +14,25 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a href="#" class="navbar-brand title-brand">Cui'Zine</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        <a href="#" class="navbar-brand title-brand mx-4">Cui'Zine</a>
+        <button class="navbar-toggler mx-4" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse justify-content-end mx-4" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="./index.html">Accueil</a>
+                    <a class="nav-link normal-title" href="./index.html">Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./team.html">Equipe</a>
+                    <a class="nav-link normal-title" href="./team.html">Equipe</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
+                    <a class="nav-link normal-title" href="#">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./contact.html">Contact</a>
+                    <a class="nav-link normal-title" href="./contact.html">Contact</a>
                 </li>
     </nav>
     <!-- BACKGROUND IMG ??? -->
@@ -41,13 +41,21 @@
             <img class="card-img" src="img/header.jpg" alt="Card image">
             <div class="card-img-overlay">
                 <div class="container p-4">
-                    <div class="justify-content-center align-items-center">
-                        <div><img src="./img/logo_square_white.png" class="img-fluid" alt="Logo" width="75px"></div>
-                        <h1 class="text-white mb-3 text-center italic-title">Cui'zine</h1>
-                        <h3 class="text-white mb-3 text-center italic-title">Le mag cuisine</h3>
+                    <div class="row justify-content-center">
+                        <div class="col"><img src="./img/logo_square_white.png" class="img-fluid" alt="Logo"
+                                width="75px"></div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col">
+                            <h1 class="text-white mb-3 text-center italic-title">Cui'zine</h1>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col">
+                                <h3 class="text-white mb-3 text-center italic-title">Le mag cuisine</h3>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
     </header>
     <section>
         <div class="container-fluid">
@@ -55,36 +63,30 @@
                 <div class="col-12 m-2 mt-4">
                     <h2 class="text-center normal-title">Derniers articles</h2>
                 </div>
-                <div class="col-12 m-2">
+                <div class="col-12 col-md-3 my-2">
                     <img class="img-thumbnail" src="./img/articles/suzette/suzette-small.jpg" alt="Chez Suzette">
                 </div>
-                <div class="col-12 m-2">
+                <div class="col-12 col-md-8 my-2">
                     <h2 class="italic-title">Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h2>
-                </div>
-                <div class="col-12">
                     <p>La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant à
                         Paris dans les quartier latin. Antoine de Cui'Zine a testé pour vous mes saveurs sucrées,
                         salées, au froment ou au sarrazin</p>
                 </div>
-                <div class="col-12 m-2">
+                <div class="col-12 col-md-3 my-2">
                     <img class="img-fluid" src="./img/articles/metro/metro-small.jpg" alt="Le Métro dessert">
                 </div>
-                <div class="col-12 m-2">
+                <div class="col-12  col-md-8 my-2">
                     <h2 class="italic-title">Le Métro dessert</h2>
-                </div>
-                <div class="col-12">
                     <p>Germain est ferrovipathe (nldr: fan de train), son fils Maxime est pâtissier. Ils ont décidé de
                         réunir leur deux passions dans un restaurant à la déco inspirée du métro parisien. A voir
                         absolument, mais qu'en est-il d'y aller pour manger? Clémentine entre en gare et nous donne son
                         avis</p>
                 </div>
-                <div class="col-12 m-2">
+                <div class="col-12 col-md-3 my-2">
                     <img class="img-fluid" src="./img/articles/vitaly/vitaly-small.jpg" alt="Vitaly">
                 </div>
-                <div class="col-12 m-2">
+                <div class="col-12 col-md-8 my-2">
                     <h2 class="italic-title">Vitaly, le vegan italien</h2>
-                </div>
-                <div class="col-12">
                     <p>Quand on pense italien, on pense lasagne et jambon de parme. Ils l'ont fait, les saveurs de
                         l'Italie à la portée des herbivores. Cette fois, c'est moi Tony qui vait le tester pour vous.
                     </p>
@@ -95,62 +97,66 @@
     <footer>
         <div class="container-fluid bg-dark">
             <div class="row px-2">
-                <div class="col pt-4">
+                <div class="col offset-md-2 pt-4">
                     <h3 class="text-white italic-title mt-3">Catégories</h3>
                 </div>
             </div>
             <div class="row px-2">
-                <div class="col">
+                <div class="col offset-md-2">
                     <a class="text-white" href="#">News</a>
                 </div>
             </div>
             <div class="row px-2">
-                <div class="col">
+                <div class="col offset-md-2">
                     <a class="text-white" href="#">Recettes</a>
                 </div>
             </div>
             <div class="row px-2">
-                <div class="col">
+                <div class="col offset-md-2">
                     <a class="text-white" href="#">Découvertes</a>
                 </div>
             </div>
             <div class="row px-2">
-                <div class="col">
+                <div class="col offset-md-2">
                     <h3 class="text-white italic-title mt-3">Archives</h3>
                 </div>
             </div>
             <div class="row px-2">
-                <div class="col">
+                <div class="col offset-md-2">
                     <a class="text-white" href="#">2019</a>
                 </div>
             </div>
             <div class="row px-2">
-                <div class="col">
+                <div class="col offset-md-2">
                     <a class="text-white" href="#">2018</a>
                 </div>
             </div>
             <div class="row px-2">
-                <div class="col">
+                <div class="col offset-md-2">
                     <a class="text-white" href="#">2017</a>
                 </div>
             </div>
             <div class="row p-2">
-                <div class="col">
+                <div class="col offset-md-2">
                     <h4 class="text-white italic-title">Newsletter</h4>
                 </div>
             </div>
             <div class="row">
-                <div class="form-group col-6 mb-2">
+
+                <div class="form-group col-4 offset-md-2 mb-2">
                     <input class="form-control" type="email" placeholder="Email...">
                 </div>
-                <div class="form-group col-3 mb-2">
+                <div class="form-group col-2 mb-2">
                     <button type="submit" class="btn btn-outline-light">S'inscrire</button>
                 </div>
             </div>
             <div class="row p-2">
-                <h4 class="text-white italic-title">Partager</h4>
+                <div class="col offset-md-2">
+                    <h4 class="text-white italic-title">Partager</h4>
+                </div>
+
             </div>
-            <!-- ICONS -->         
+            <!-- ICONS -->
         </div>
 
 
