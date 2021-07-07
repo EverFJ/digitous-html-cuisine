@@ -1,2 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+.title-brand {
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.header-image {
+    height: 70vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../img/header.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.italic-title {
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.normal-title {
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
